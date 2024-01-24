@@ -1,9 +1,3 @@
-provider "aws" {
-  access_key = "AKIAW3C3EKIXBBFBIL2V"
-  secret_key = "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"
-  region = "us-east-1"
-}
-
 
 terraform {
   required_providers {
@@ -16,5 +10,5 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  region = "ap-south-1"
+  region = "us-east-1"
 }
